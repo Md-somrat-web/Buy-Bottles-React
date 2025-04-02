@@ -15,6 +15,8 @@ const Bottles = ({ bottlesPromised }) => {
     <div>
       <h3>Bottles : {bottles.length}</h3>
       <p>Added to card : {card.length}</p>
+      {/* <Card card={card}></Card> */}
+
       <div className="bottles-container ">
         {bottles.map((bottle) => (
           <Bottle
